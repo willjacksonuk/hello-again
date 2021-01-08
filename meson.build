@@ -1,5 +1,5 @@
 # Project name and programming language
-project('com.github.willjacksonuk.hello-again')
+project('com.github.willjacksonuk.hello-again', ['c', 'vala'])
 
 # Create a new executable, list the files we want to compile, list the dependencies we need, and install
 executable(
